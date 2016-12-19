@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.2.1'
+ruby '2.3.1'
 
 gem 'rails', '4.2.5'
 gem 'sqlite3'
@@ -11,6 +11,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise', '~> 3.4.0' 
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 
 group :development, :test do
   gem 'byebug'
